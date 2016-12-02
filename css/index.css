@@ -34,11 +34,29 @@ li a {
 li a:hover {
 	color:black;
 }
-#imac-home-page img{
+#imac-home-page img {
 	margin:50px 0px 0px 100px;
 }
-#ostap-name{
+#ostap-name {
 	color:white;
 	float:right;
 	margin:-100px 100px 0 0;
+}
+#about-page {
+	width: 100%;
+	height: 100vh;
+}
+#cloud-about-page {
+	float:right;
+	width: 50%;
+	height: 100vh;
+	background-color: #00a9ff;
+}
+#about-text {
+width: 50%;
+height: 100vh;
+color:#d94819;
+}
+#about-page p {
+	float:left;
 }
