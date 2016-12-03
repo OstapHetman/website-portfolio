@@ -59,6 +59,7 @@ height: 100vh;
 color:#d94819;
 }
 #about-page p {
+	display: block;
 	float:left;
 }
 #skills-page {
