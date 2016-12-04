@@ -11,26 +11,32 @@ header{
 	width: 100%;
 	height: 100vh;
 }
-header #logo-oh {
-	float:left;
-	font-size: 36px;
-	color:white;
-	padding-left:30px;
-}
 header #logo-oh:hover{
-color:black;
+	color:black;
 }
 nav {
 	background-color: #d94819;
 	height: 70px;
 }
+nav ul li {
+	margin-top: 27px;
+	float: right;
+	display: inline-block;
+}
+nav ul li:nth-child(1) {
+	margin-top: 13px;
+	margin-left: 30px;
+	font-size: 36px;
+	float: left;
+}
 nav li a {
-	margin-right: 20px;
-	float:right;
+	margin-right: 30px;
+	padding: 10px;
 	color: white;
 }
 nav li a:hover {
-	color:black;
+	background-color:white;
+	color:#d94819;
 }
 #imac-image {
 	width: 100%;
@@ -53,10 +59,11 @@ width: 50%;
 height: 100vh;
 color:#d94819;
 }
-#about-page p {
-	display: inline-block;
+#about-page p:nth-child(2) {
+display: block;
+margin-top: 200px;
 }
-section#portret {
+#portret {
 	display: block;
 	width: 100%;
 	max-width: 160px;
