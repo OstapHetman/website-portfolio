@@ -1,0 +1,15 @@
+@media (max-width: 600px)
+{
+#navigation-right li a {
+		display: none;
+											}
+#imac-image {
+	display: none;
+}
+#imac-home-page h1{
+	font-size: 40px;
+}
+#imac-home-page h5{
+	font-size: 26px;
+}
+}
