@@ -56,10 +56,13 @@ color:#d94819;
 #about-page p {
 	display: inline-block;
 }
-#portret {
+section#portret {
 	display: block;
+	width: 100%;
+	max-width: 160px;
+	height: auto;
 	position: absolute;
-	margin: 0 auto;
+	margin:0 auto;
 }
 #skills-page {
 	width: 100%;

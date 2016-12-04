@@ -12,4 +12,13 @@
 #imac-home-page h5{
 	font-size: 26px;
 }
+#cloud-about-page {
+	display: none;
+}
+#about-text {
+	width: 100%;
+}
+#portret {
+	margin:0 auto;
+}
 }
