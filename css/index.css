@@ -38,10 +38,28 @@ nav li a:hover {
 	background-color:white;
 	color:#d94819;
 }
+/************************----under navigation------******************/
 #imac-image {
+	position: relative;
 	width: 100%;
 	max-width: 600px;
 	height: auto;
+}
+#text-home-page {
+
+	float:right;
+	margin-top: 30vh;
+	margin-right: 50px;
+	color:white;
+}
+#text-home-page p:first-child {
+	font-size: 46px;
+}
+/************************----END under navigation------******************/
+
+#imac-image{
+	float: left;
+	margin : 7% 0 0 7.7%;
 }
 #about-page {
 	width: 100%;
@@ -52,6 +70,11 @@ nav li a:hover {
 	width: 50%;
 	height: 100vh;
 	background-color: #00a9ff;
+}
+#portret{
+	max-width: 256px;
+	width: 100%;
+	height: auto;
 }
 #about-text {
 float: right;
@@ -83,7 +106,39 @@ margin-top: 200px;
 	font-size: 30px;
 }
 #skills-page h3 {
+	margin-left: 30px;
+	padding: 30px;
 	color:white;
+}
+/*****---Portfolio page--------****/
+.container {
+  margin: auto;
+  max-width: 700px;
+}
+.responsive-image, a {
+	padding: 5px ;
+	margin: 0 auto;
+  max-width: 100%;
+}
+.cell a img {
+			margin-top: 55px;
+  display: block;
+}
+
+@media screen and (min-width: 610px) {
+  .grid {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .cell {
+    width: 50%;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .cell {
+    width: calc(100% / 3);
+  }
 }
 #portfolio-page {
 	width: 100%;
@@ -96,10 +151,7 @@ margin-top: 200px;
 	margin-right: 20px;
 	font-size: 30px;
 }
-#portfolio-page img {
-	margin: 60px 0 0 60px;
-	padding: 40px;
-}
+/*********---END PORTFOLIO PAGE---************/
 #contact-page {
 	width: 100%;
 	height: 100vh;

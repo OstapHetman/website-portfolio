@@ -10,7 +10,7 @@
 </head>
 <body>	
 	<header>
-		<nav id="navigation-right">
+		<nav id="navigation-right" >
 			<ul>
 				<li><a href="index.html">{OH}</a></li>
 				<li><a href="#about-page">About</a></li>
@@ -19,38 +19,34 @@
 				<li><a href="#contact-page">Contact</a></li>
 			</ul>
 		</nav>
-		<section id="imac-home-page">
-			<img id="imac-image" alt="imac-image-on-start-page" src="img/imac.png">
-			<div>
-				<h1>MY NAME IS OSTAP</h1>
-				<h5>Front-end Web Developer</h5>
+		<div id="imac-home-page">
+			<div id="imac-text">
+				<img id="imac-image" alt="imac-image-on-start-page" src="img/imac.png">
+				<div id="text-home-page">
+					<p>MY NAME IS OSTAP</p>
+					<p>Front-end Web Developer</p>
+				</div>
 			</div>
-		</section>
-		<!--<section id="welcome-text">
-			<div id="ostap-name">
-				<h1>MY NAME IS OSTAP</h1>
-				<h5>Front-end Web Developer</h5>
-			</div>	
-		</section>-->
+		</div>
 	</header>
 	<section id="about-page">
 		<div id="cloud-about-page">
 			<img src="img/cloud.png" alt="cloud on about page">
 		</div>
-		<div id="about-text">
 		<img id="portret" src="img/my_image.png" alt="portret ostap hetman">
-					<p>Who I am
-					<br>
-					<br>
-						I’m 20, I live in the city Lviv, which is situated on the West of Ukraine. I enjoy what I do. I’m making design and develop websites. I'm thinking of the user whenever I craft website. My goal is to create simple & intuitive site. Also I take a keen interest in responsive web development. Recently, I have started to practice it, as you can notice on this site.
-					</p>
-					<br>
-					<br>
-				   <p>What I love
-				   <br>
-				   <br>
-					When I'm not coding, I enjoy myself in sport, such as football or walk the streets with a camera.
-				  </p>
+		<div id="about-text">
+			<p>Who I am
+				<br>
+				<br>
+				I’m 20, I live in the city Lviv, which is situated on the West of Ukraine. I enjoy what I do. I’m making design and develop websites. I'm thinking of the user whenever I craft website. My goal is to create simple & intuitive site. Also I take a keen interest in responsive web development. Recently, I have started to practice it, as you can notice on this site.
+			</p>
+			<br>
+			<br>
+			<p>What I love
+				<br>
+				<br>
+				When I'm not coding, I enjoy myself in sport, such as football or walk the streets with a camera.
+			</p>
 		</div>
 	</section>
 	<section id="skills-page">
@@ -64,9 +60,28 @@
 	</section>
 	<section id="portfolio-page">
 		<h2>PORTFOLIO</h2>
-		<a href="work1.html"><img src="img/portfolio-cover.png" alt="portfolio-work-cover"></a>
-		<a href=""><img src="img/portfolio-cover.png" alt="portfolio-work-cover"></a>
-		<a href=""><img src="img/portfolio-cover.png" alt="portfolio-work-cover"><</a>
+		<div class="container">
+			<div class="grid">
+				<div class="cell">
+					<a href="work1.html"><img src="img/portfolio-cover.png" class="responsive-image" alt="portfolio-cover work 1"></a>
+				</div>
+				<div class="cell">
+					<a href="work1.html"><img src="img/portfolio-cover.png" class="responsive-image" alt="portfolio-cover work 2"></a>
+				</div>
+				<div class="cell">
+					<a href="work1.html"><img src="img/portfolio-cover.png" class="responsive-image" alt="portfolio-cover work 3"></a>
+				</div>
+				<div class="cell">
+					<a href="work1.html"><img src="img/portfolio-cover.png" class="responsive-image" alt="portfolio-cover work 4"></a>
+				</div>
+				<div class="cell">
+					<a href="work1.html"><img src="img/portfolio-cover.png" class="responsive-image" alt="portfolio-cover work 5"></a>
+				</div>
+				<div class="cell">
+					<a href="work1.html"><img src="img/portfolio-cover.png" class="responsive-image" alt="portfolio-cover work 6"></a>
+				</div>
+			</div>
+		</div>
 	</section>
 	<section id="contact-page">
 		<h2>CONTACT</h2>
