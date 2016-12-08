@@ -34,7 +34,7 @@
 			<img src="img/cloud.png" alt="cloud on about page">
 		</div>
 		<div>
-		<img id="portret" src="img/my_image.png" alt="portret ostap hetman">
+			<img id="portret" src="img/my_image.png" alt="portret ostap hetman">
 		</div>
 		<div id="about-text">
 			<p>Who I am
@@ -88,13 +88,20 @@
 	<section id="contact-page">
 		<h2>CONTACT</h2>
 		<div id="contact-form">
-			<form>
-				<input type="text" name="message" placeholder="Write your message...">
-				<input type="text" name="name">
-				<input type="text" name="email">
-				<input type="submit" name="submit" value="Send">
-				<br>
-				<img src="img/map-location.png" alt="map-location">
+			<form id="waterform" method="post">
+				<div class="formgroup" id="name-form">
+					<label for="name">Your name*</label>
+					<input type="text" id="name" name="name" />
+				</div>
+				<div class="formgroup" id="email-form">
+					<label for="email">Your e-mail*</label>
+					<input type="email" id="email" name="email" />
+					</div>
+				<div class="formgroup" id="message-form">
+					<label for="message">Your message</label>
+					<textarea id="message" name="message"></textarea>
+				</div>
+				<input type="submit" value="Send your message!" />
 			</form>
 		</div>
 	</section>

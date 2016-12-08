@@ -1,3 +1,4 @@
+
 * {
 	font-family: 'Montserrat', sans-serif;
 	text-decoration: none;
@@ -184,6 +185,64 @@ margin-top: 200px;
 	float:right;
 	margin-right: 20px;
 	font-size: 30px;
+}
+form{
+	margin-left: 100px;
+	width: 500px;
+	padding-top: 40px;
+	color: white;
+	position: relative;
+}
+label, input, textarea{
+	display: block;	
+}
+input, textarea{
+	width: 500px;	
+	border: none;
+	border-radius: 20px;
+	outline: none;
+	padding: 10px;
+	font-size: 1em;
+	color: #d94819;
+	transition: border 0.5s;
+	-webkit-transition: border 0.5s;
+	-moz-transition: border 0.5s;
+	-o-transition: border 0.5s;
+	border: solid 3px #98d4f3;	
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
+input:focus, textarea:focus{
+	border: solid 3px #00a9ff;	
+}
+textarea{
+	height: 200px;	
+	resize: none; 
+	overflow: auto;
+}
+input[type="submit"]{
+	background-color: #d94819;
+	color: white;
+	height: 50px;
+	cursor: pointer;
+	margin-top: 30px;
+	font-size: 1.29em;
+	-webkit-transition: background-color 0.5s;
+	-moz-transition: background-color 0.5s;
+	-o-transition: background-color 0.5s;
+	transition: background-color 0.5s;
+}
+input[type="submit"]:hover{
+	border: solid 3px #00a9ff;
+	color: #d94819;
+	background-color: white;
+	
+}
+label{
+	font-size: 1.5em;
+	margin-top: 20px;
+	padding-left: 20px;
 }
 footer {
 	width: 100%;
