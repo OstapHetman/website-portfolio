@@ -47,6 +47,7 @@ nav#navigation-right li a:hover {
 #imac-image {
 	display: inline-block;
 	float: left;
+	margin : 7% 0 0 7.7%;
 	width: 50%;
 	max-width: 600px;
 	height: auto;
@@ -65,20 +66,26 @@ nav#navigation-right li a:hover {
 	font-size: 46px;
 }
 /************************----END under navigation------******************/
-
-#imac-image{
-	float: left;
-	margin : 7% 0 0 7.7%;
-}
 #about-page {
+	display: block;
 	width: 100%;
 	height: 100vh;
 }
 #cloud-about-page {
+	display: block;
 	float: left;
 	width: 50%;
 	height: 100vh;
 	background-color: #00a9ff;
+}
+#cloud-about-page img {
+	float: left;
+	display: block;
+	margin-top: 40vh;
+	margin-left: 100px;
+	max-width: 256px;
+	width: 30%;
+	height: auto;
 }
 #portret{
 	max-width: 256px;
@@ -86,6 +93,8 @@ nav#navigation-right li a:hover {
 	height: auto;
 }
 #about-text {
+margin-top: 20%;
+display: inline-block;
 float: right;
 width: 50%;
 height: 100vh;
@@ -103,6 +112,7 @@ margin-top: 200px;
 	position: absolute;
 	margin:0 auto;
 }
+/**********Skills page************/
 #skills-page {
 	width: 100%;
 	height: 100vh;
