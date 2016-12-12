@@ -11,7 +11,9 @@ header{
 	background-color: #75dbff;
 	width: 100%;
 	height: 100vh;
+	position: relative;
 }
+
 header #logo-oh:hover{
 	color:black;
 }
@@ -94,16 +96,16 @@ nav#navigation-right li a:hover {
 	height: auto;
 }
 #about-text {
-margin-top: 20%;
-display: inline-block;
-float: right;
-width: 50%;
-height: 100vh;
-color:#d94819;
+	margin-top: 20%;
+	display: inline-block;
+	float: right;
+	width: 50%;
+	height: 100vh;
+	color:#d94819;
 }
 #about-page p:nth-child(2) {
-display: block;
-margin-top: 200px;
+	display: block;
+	margin-top: 200px;
 }
 #portret {
 	display: block;
@@ -132,36 +134,36 @@ margin-top: 200px;
 }
 /*****---Portfolio page--------****/
 .container {
-  margin: auto;
-  max-width: 700px;
+	margin: auto;
+	max-width: 700px;
 }
 .responsive-image, a {
 	padding: 5px ;
 	margin: 0 auto;
-  max-width: 100%;
+	max-width: 100%;
 }
 .cell a img {
-			margin-top: 55px;
-  display: block;
+	margin-top: 55px;
+	display: block;
 }
 .cell a img:hover {
 	background-color: #d94819;
 }
 
 @media screen and (min-width: 610px) {
-  .grid {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-  }
-  .cell {
-    width: 50%;
-  }
+	.grid {
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+	}
+	.cell {
+		width: 50%;
+	}
 }
 @media screen and (min-width: 1000px) {
-  .cell {
-    width: calc(100% / 3);
-  }
+	.cell {
+		width: calc(100% / 3);
+	}
 }
 #portfolio-page {
 	width: 100%;
